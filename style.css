@@ -1,0 +1,17 @@
+
+img{
+    width: 80%;
+    height: 185px;
+    margin-right: 18px;
+    margin-left: 18px;
+
+}
+.first{
+    display: flex;
+}
+p{
+
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-right: 50px;
+}

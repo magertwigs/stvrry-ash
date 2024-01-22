@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="assets/form.css">
+</head>
+<body>
+<h1><b> <u> Project Management </u> </b></h1>
+<form action="">
+    <label for="prjname">Project name</label>
+    <input type="text" id="prjname" placeholder="project name"> <br><br>
+
+    <label for="assign">Assigned to</label>
+        <select name="" id="assign">
+             <option value="name">Er Merry Petision</option>
+        </select>
+    <br><br>
+
+    <label for="start">Start Date</label>
+    <input type="date" id="start" required="required" placeholder="dd.mm.yyyy"> <br><br>
+
+    <label for="end">End Date</label>
+    <input type="date" id="end" required="required" placeholder="dd.mm.yyyy"> <br><br>
+
+   <div class="priority" id="priority">
+    <label for="priority">Priority</label>
+    <div class="options">
+        <label for="high">High</label>
+              <input type="radio" id="high">
+
+              <label for="average">Average</label>
+              <input type="radio" id="average">
+
+
+              <label for="low">Low</label>
+              <input type="radio" id="low">
+
+    </div>
+     </div>
+
+    <br><br>
+
+    <div class="describe">
+<label class="descr" for="describe">Description</label>
+
+        <div class="textarea">
+           <textarea name="" id="describe" cols="40" rows="4"></textarea> <br><br>
+        </div>
+
+    </div>
+
+
+
+    <div class="main">
+        <button  class="first">
+            submit
+        </button>
+
+        <button class="second" type="">clear
+        </button>
+    </div>
+
+
+
+</form>
+
+</body>
+</html>

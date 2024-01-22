@@ -1,0 +1,60 @@
+body{
+    background-color: #831583;
+}
+form{
+    width: 65%;
+    height: 520px;
+    background-color: #490d49;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    margin-left: 80px;
+}
+.gender{
+    display: flex;
+    margin-right: 70px;
+}
+.options{
+    margin-left: 210px;
+    margin-right: 20px;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    float: right;
+}
+button{
+    width: 100%;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+}
+input{
+    float:right ;
+    height: 30px;
+    width: 300px;
+    margin-right: 70px;
+}
+select{
+    height: 30px;
+    width: 250px;
+    float: right;
+    margin-left: 100px;
+    margin-right: 125px;
+}
+#zip{
+    float: right;
+    width: 300px;
+   height: 30px;
+
+}
+textarea{
+    float: right;
+    width: 300px;
+    height: 50px;
+    margin-right: 70px;
+}
+
+
+

@@ -1,0 +1,89 @@
+.main{
+    display: flex;
+}
+form{
+    background-color: cyan;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    height: 400px;
+    padding-right: 150px;
+}
+h1{
+    text-align: center;
+}
+input{
+    padding-right: 40px;
+    border-radius: 10px;
+    margin-right: 180px;
+    height: 20px;
+    width: 200px;
+    float: right;
+}
+.first{
+    background-color: lawngreen;
+    color: white;
+    padding: 10px;
+    margin-right: 100px;
+    float: right;
+    margin-left: 130px;
+}
+.second{
+    color: white;
+    background-color: royalblue;
+    padding: 10px;
+    margin-right: 150px;
+    float: right;
+}
+.priority{
+    display: flex;
+    margin-right: 600px;
+    width: 500px;
+
+
+}
+.options{ margin-left:220px ;
+    display: flex;
+    margin-right: 800px;
+    float: right;
+    height: 20px;
+    width: 30px;
+}
+.describe{
+    display: flex;
+
+}
+.descr{
+    padding-right: 20px;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+button{
+    margin-top: 60px;
+    float: right;
+}
+textarea{
+    float: right;
+    margin-right: 90px;
+    margin-left: 170px;
+
+
+}
+select{
+    height: 30px;
+    width: 160px;
+    float: right;
+    margin-right: 108px;
+    padding-right: 50px;
+}
+#assign{
+    width: 170px;
+    margin-right: 255px;
+}
+#describe{
+    margin-right: 1000px;
+}
+.options{
+    display: flex;
+}
+
